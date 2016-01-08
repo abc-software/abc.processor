@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>1.6.0.2</version>
+    <authors>ABC software</authors>
+    <owners>ABC software</owners>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Configuration" targetFramework="" />
+      <frameworkAssembly assemblyName="System.Runtime.Remoting" targetFramework="" />
+    </frameworkAssemblies>
+    <id>Abc.Processor.dll</id>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Processor</description>
+    <copyright>Copyright 2007-2014</copyright>
+    <tags>IVIS processor VISS</tags>
+  </metadata>
+</package>

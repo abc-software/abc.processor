@@ -1,0 +1,38 @@
+﻿V1.6.0.4
+File:	ProcessorRunner.cs
+FIX:	Улучшено сообщение об ошибке процессора
+
+CNG:	Под Apache-2.0 лицензией
+
+V1.6.0.3
+File:	ProcessorManager.cs
+FIX:	добавление процессоров через код
+
+File:	ReflectorBase.cs
+FIX:	возможность наследование Processov
+
+V1.6.0.2
+File:	CronTrigger.cs, CronExpression.cs
+NEW:	Добавился CRON тригер
+
+V1.6.0.1
+File:	Processor.cs
+CNG:	убран метод IsRunning
+
+V1.6.0.0
+File:	Processor.cs, SR.cs
+NEW:	добавлен AutoLog
+
+File:	ReflectorBase.cs, Processor.cs, Trigger.cs
+NEW:	класы унаследованы от ReflecorBase, что прозваляет задавать параметры в конфигурационном файле при помощи ReflectorPropertyAttribute.
+
+File:	ProcessorCollectionEditor.cs, 	ProcessorCollectionEditorForm.cs
+NEW:	форма для редактрования процесоров.
+
+File:	Processor.cs, Trigger.cs, ProcessorServer.cs
+NEW:	класы унаследованы от Component.
+
+File:	FilterTrigger.cs, IntervalTrigger.cs, MultipleTrigger.cs, ScheduleTrigger.cs
+NEW:	Добавлен атрибут DefaultValue
+
+CHANGE: Veiktas izmiaņas saskaņa ar StyleCop brīdinajumiem. 
